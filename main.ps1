@@ -42,6 +42,12 @@ elseif ($caption -match "Windows 10" -and $caption -match "LTSC") {
     . "$basePath\win10-ltsc2021\defender.ps1"
     . "$basePath\win10-ltsc2021\services.ps1"
 }
+elseif ($caption -match "Windows 10" -or $caption -match "Windows 11") {
+    Write-Host "Aplicando pacote Windows 10/11"
+
+    . "$basePath\win10-11-pro\win10-11-baseline.ps1"
+    . "$basePath\win10-11-pro\win10-11-performance.ps1"
+}
 
 else {
     Write-Host "Versão não suportada explicitamente. Apenas tweaks comuns aplicados." -ForegroundColor Yellow
