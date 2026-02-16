@@ -70,7 +70,7 @@ Nada obscuro ou irreversível.
 # Estrutura de Diretórios
 
 ```
-rdp-desktop-tweaks/
+winlabs/
 │
 ├── main.ps1
 │
@@ -218,7 +218,6 @@ Windows 10 ou 11 com baseline aplicado
 
 # Limitações Conhecidas
 
-* Windows 11 nunca ficará tão leve quanto Server 2012 R2.
 * DWM não pode ser removido em versões modernas.
 * Defender em Windows 10/11 não deve ser completamente desinstalado.
 
@@ -235,9 +234,9 @@ Windows 10 ou 11 com baseline aplicado
 
 # Agradecimentos
 
-Agradecimento especial ao canal **1155 do ET** pelos scripts e configurações voltadas para Windows 10 e Windows 11.
+Agradecimento especial ao canal **1155 do ET** pelas configurações de gpedit e configurações voltadas para Windows 10 e Windows 11.
 
-As configurações de política aplicadas neste projeto foram inspiradas nas orientações apresentadas no vídeo:
+As configurações de política aplicadas neste projeto foram inspiradas nas idéias apresentadas no video:
 
 [https://www.youtube.com/watch?v=kQM-iv7TQz0](https://www.youtube.com/watch?v=kQM-iv7TQz0)
 
@@ -264,16 +263,4 @@ Sugestões, melhorias, correções e novos perfis de otimização podem ser subm
 * Issue documentada
 * Sugestões de benchmark
 
-O objetivo é evoluir este projeto para se tornar uma baseline sólida para homelabs e ambientes de teste controlados.
-
----
-
-Se desejar, posso gerar também:
-
-* Versão formatada em Markdown pronta para GitHub
-* Versão em PDF
-* Arquivo LICENSE adequado
-* Badge de versão
-* Estrutura pronta de repositório
-
-Esse projeto tem potencial para virar referência de baseline homelab.
+O objetivo é evoluir este projeto para se tornar uma baseline sólida para homelabs e ambientes de teste controlados ou em ultimo caso para uso em computadores com recursos reduzidos.
